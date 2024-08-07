@@ -26,7 +26,7 @@ to some value without taking ownership of it. Figure 4-5 depicts this concept.
 
 <img alt="Three tables: the table for s contains only a pointer to the table
 for s1. The table for s1 contains the stack data for s1 and points to the
-string data on the heap." src="img/trpl04-05.svg" class="center" />
+string data on the heap." src="src/img/trpl04-05.svg" class="center" />
 
 <span class="caption">Figure 4-5: A diagram of `&String s` pointing at `String
 s1`</span>

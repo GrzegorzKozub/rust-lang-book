@@ -10,6 +10,26 @@ additional-css = ["ferris.css", "theme/2018-edition.css", "theme/semantic-notes.
 additional-js = ["ferris.js"]
 git-repository-url = "https://github.com/rust-lang/book"
 
+[output.pandoc]
+additional-css = ["ferris.css", "theme/2018-edition.css", "theme/semantic-notes.css", "theme/listing.css"]
+additional-js = ["ferris.js"]
+hosted-html = "https://doc.rust-lang.org/book"
+
+[output.pandoc.code]
+show-hidden-lines = true
+
+[output.pandoc.profile.epub]
+output-file = "The Rust Programming Language.epub"
+to = "epub"
+from = "commonmark"
+file-scope = true
+number-sections = true
+standalone = true
+table-of-contents = false
+
+[output.pandoc.profile.epub.variables]
+epub-cover-image = "cover.jpg"
+
 # Do not sync this preprocessor; it is for the HTML renderer only.
 [preprocessor.trpl-note]
 

@@ -127,7 +127,7 @@ Figure 4-6 shows this in a diagram.
 to the byte at index 0 in a table of the string data &quot;hello world&quot; on
 the heap. The third table rep-resents the stack data of the slice world, which
 has a length value of 5 and points to byte 6 of the heap data table."
-src="img/trpl04-06.svg" class="center" style="width: 50%;" />
+src="src/img/trpl04-06.svg" class="center" style="width: 50%;" />
 
 <span class="caption">Figure 4-6: String slice referring to part of a
 `String`</span>
