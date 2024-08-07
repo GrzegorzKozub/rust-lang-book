@@ -16,5 +16,11 @@ git-repository-url = "https://github.com/rust-lang/book"
 [preprocessor.trpl-listing]
 output-mode = "default"
 
+[preprocessor.nocomment]
+
 [rust]
 edition = "2021"
+
+[output.epub]
+additional-css = ["src/custom.css"]
+cover-image = "cover.jpg"
